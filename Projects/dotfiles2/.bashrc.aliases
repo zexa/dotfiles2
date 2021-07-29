@@ -1,0 +1,8 @@
+#
+# ~/.bashrc.aliases
+#
+
+function atp() { export PATH=$PATH:$1; echo $PATH; }
+alias ls='ls -AGv --color'
+alias cls="clear;ls"
+
